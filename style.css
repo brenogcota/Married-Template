@@ -1,0 +1,385 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+h1, p {
+    color: #faadff;
+}
+
+img {
+    margin-bottom: 7%;
+    width: 20%;
+    height: 35%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-login {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#arrow {
+    padding: 0;
+    margin: 0;
+    width: 23px;
+    color: #faadff;
+}
+
+
+.flex-container {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+  }
+
+.card {
+    justify-items: center;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50px;
+    width: 250px;
+    height: 200px;
+    border: 1.5px solid;
+    border-color: #faadff;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #dbdada;
+}
+
+.card-content {
+    color: #faadff;
+    white-space: nowrap;
+    font-size: 32px;
+}
+
+
+.card img {
+    width: 130px;
+    height: 92px;
+}
+
+
+.about {
+    margin-left: 25%;
+    background-color: #ffffff;
+    opacity: 0.7;
+    text-align: center;
+    border-radius: 50%;
+    border: 1.9px solid;
+    border-color: #f06cfa;
+    width: 50%;
+    height: 100%;
+}
+
+.about h1 {
+    color: #444444;
+    margin-top: 30%;
+}
+
+.about p {
+    font-size: 23px;
+    color: #444444;
+}
+
+#myautoload {
+    position: absolute;
+    top: 10px;
+    right: 40%;
+}
+
+
+
+.container-header {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container-header img {
+    width: 200px;
+    height: 150;
+    border-radius: 50%;
+}
+
+.container-header p {
+    font-size: 20px;
+}
+
+.container-body {
+    text-align: left;
+    width: 45%;
+    margin-left: 30%;
+}
+
+.container-body h2 {
+    color: rgb(107, 106, 106);
+}
+
+
+#arrow-down {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50%;
+    width: 32px;
+    color: #faadff;
+}
+
+.item {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 17px;
+    border: 0.5px solid;
+    border-color: #faadff;
+}
+
+.item input {
+    margin-left: 80% !important;
+}
+
+.item, h2, h3{
+    color: rgb(100, 99, 99);
+    margin-left: 10px;
+}
+
+.container-title {
+    font-size: 23px;
+    color: rgb(107, 106, 106);
+    text-align: center;
+    width: 45%;
+    margin-left: 30%;
+    white-space: nowrap;
+    padding-bottom: 60px;
+}
+
+.container-title p {
+    color: rgb(107, 106, 106);
+}
+.list {
+    float: right;
+}
+
+.gift {
+    float: left;
+}
+
+.list:hover , .gift:hover {
+    color: #faadff;
+    cursor: pointer;
+}
+
+
+
+.container-footer p {
+    white-space: nowrap;
+    font-size: 23px;
+    color: rgb(134, 134, 134);
+    margin-bottom: 90px;
+    margin-top: -20px;
+}
+
+.container-footer p:hover {
+    color: #faadff;
+}
+
+.container-footer {
+    text-align: center;
+    width: 45%;
+    margin-left: 30%;
+}
+
+.container-footer img {
+    padding-top: 60px;
+    width: 90px;
+    height: 70px;
+}
+
+.top {
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 576px ){
+    img {
+        margin-bottom: 7%;
+        width: 60%;
+        height: 45%;
+    } 
+
+    .flex-container {
+        margin-top: 20%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card {
+        border-radius: 32px;
+        width: 200px;
+        height: 150px;
+        border: 1.5px solid;
+        border-color: #faadff;
+        padding: 10px;
+        box-shadow: 5px 10px 8px #dbdada;
+    }
+    
+    .card-content {
+        color: #faadff;
+        font-size: 18px;
+    }
+    
+    .card img {
+        width: 90px;
+        height: 72px;
+    }
+
+    .item {
+        width: 90%;
+        border-radius: 17px;
+        border: 0.5px solid;
+        border-color: #faadff;
+    }
+    
+    .container-title {
+        font-size: 20px;
+        color: rgb(107, 106, 106);
+        text-align: center;
+        width: 90%;
+        margin-left: 25px;
+        white-space: nowrap;
+        padding-bottom: 60px;
+    }
+
+    .container-body {
+        text-align: center;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .container-footer p {
+        white-space: nowrap;
+        font-size: 16px;
+        color: rgb(134, 134, 134);
+        margin-bottom: 90px;
+        margin-top: -10px;
+    }
+    
+    .container-footer {
+        margin-left: 20%;
+    }
+    
+    .container-footer img {
+        margin-left: 50%;
+        padding-top: 60px;
+        width: 110px;
+        height: 80px;
+    }
+    
+    .modal-content {
+        width: 80% !important; /* Could be more or less, depending on screen size */
+    }
+
+    input[type=submit]{
+        justify-content: center;
+        margin-right: 200px !important;
+    }
+     .item , h2 , h3 {
+         text-align: left;
+     }
+
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100px;
+    background-color: #f06cfa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #faadff;
+  }
+
+
+
+    .bg {
+        background: url('assets/image1.png') no-repeat center center;
+        display: table;
+        width: 100%;
+        height: 100vh;
+        padding: 100px 0;
+        color: white;
+        background-position: 30% 45%;
+        background-size: cover;
+    }
+  
+
+
